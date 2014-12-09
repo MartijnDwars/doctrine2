@@ -16,7 +16,7 @@ Install Gearman with PHP as follows:
 
 You can then go into tests/ and start up two workers:
 
-    php Doctrine/Tests/ORM/Functional/Locking/LockAgentWorker.php
+    phpunit --configuration <myconfig.xml> Doctrine/Tests/ORM/Functional/Locking/LockAgentWorker.php
 
 Then run the locking test-suite:
 
